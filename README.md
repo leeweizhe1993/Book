@@ -1,2 +1,2 @@
-# Book
-Content Output
+# Initial page
+
