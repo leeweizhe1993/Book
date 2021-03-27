@@ -1,5 +1,0 @@
-book_filename: "Try_Bookdown"
-delete_merged_file: true
-language:
-  ui:
-    chapter_name: "Chapter "
