@@ -1,19 +1,26 @@
 --- 
-title: "麻麻说我们可以用 R Markdown 写书了"
-author: "张三"
+title: "用户体验测量"
+author: "李伟哲"
 date: "`r Sys.Date()`"
-documentclass: ctexbook
-bibliography: [book.bib, packages.bib]
-biblio-style: apalike
+output: pdf_document
+bibliography:
+- book.bib
+- packages.bib
+biblio-style: apa
 link-citations: yes
 colorlinks: yes
 lot: yes
 lof: yes
-geometry: [b5paper, tmargin=2.5cm, bmargin=2.5cm, lmargin=3.5cm, rmargin=2.5cm]
+geometry:
+- b5paper
+- tmargin=2.5cm
+- bmargin=2.5cm
+- lmargin=3.5cm
+- rmargin=2.5cm
 site: bookdown::bookdown_site
-description: "一个简单的中文书示例。"
+description: 关于如何在软件与硬件设计中量化用户体验的实践说明。
 github-repo: yihui/bookdown-chinese
-#cover-image: images/cover.jpg
+documentclass: ctexbook
 ---
 
 ```{r setup, include=FALSE}
