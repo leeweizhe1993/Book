@@ -1,10 +1,4 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 \mainmatter
-
 
 # 牛刀小试 {#intro}
 
@@ -15,21 +9,11 @@ par(mar = c(4, 4, 1, .1))
 plot(cars, pch = 19)
 ```
 
-A normal paragraph.
-
-(ref:foo) A scatterplot of the data `cars` using **base** R graphics. 
-
-```{r foo, fig.cap='(ref:foo)'}
-plot(cars)  # a scatterplot
-```
-
-
 ```{r iris}
 knitr::kable(
   head(iris), caption = '雷猴啊，iris 数据！',
   booktabs = TRUE
 )
 ```
-# (PART) 理论篇 {-} 
-就这样，你可以一直编下去，直到编不下去。
 
+就这样，你可以一直编下去，直到编不下去。

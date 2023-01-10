@@ -5,25 +5,25 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>用户体验测量</title>
-  <meta name="description" content="关于如何在软件与硬件设计中量化用户体验的实践说明。" />
-  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+  <meta name="description" content="用户体验测量" />
+  <meta name="generator" content="bookdown 0.31 and GitBook 2.6.7" />
 
   <meta property="og:title" content="用户体验测量" />
   <meta property="og:type" content="book" />
   
-  <meta property="og:description" content="关于如何在软件与硬件设计中量化用户体验的实践说明。" />
+  <meta property="og:description" content="用户体验测量" />
   <meta name="github-repo" content="yihui/bookdown-chinese" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="用户体验测量" />
   
-  <meta name="twitter:description" content="关于如何在软件与硬件设计中量化用户体验的实践说明。" />
+  <meta name="twitter:description" content="用户体验测量" />
   
 
 <meta name="author" content="李伟哲" />
 
 
-<meta name="date" content="2022-04-21" />
+<meta name="date" content="2023-01-10" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -92,7 +92,7 @@ code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -105,7 +105,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -160,24 +160,21 @@ div.csl-indent {
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>前言</a>
 <ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#本书结构"><i class="fa fa-check"></i>本书结构</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#致谢"><i class="fa fa-check"></i>致谢</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="author.html"><a href="author.html"><i class="fa fa-check"></i>作者简介</a></li>
-<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> 测量简述</a>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> 牛刀小试</a></li>
+<li class="chapter" data-level="2" data-path="wind.html"><a href="wind.html"><i class="fa fa-check"></i><b>2</b> 白苹风末</a>
 <ul>
-<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#认识论视角的测量"><i class="fa fa-check"></i><b>1.1</b> 认识论视角的测量</a></li>
+<li class="chapter" data-level="2.1" data-path="wind.html"><a href="wind.html#张老爷子"><i class="fa fa-check"></i><b>2.1</b> 张老爷子</a></li>
+<li class="chapter" data-level="2.2" data-path="wind.html"><a href="wind.html#彭大将领"><i class="fa fa-check"></i><b>2.2</b> 彭大将领</a></li>
 </ul></li>
+<li class="part"><span><b>I Part II</b></span></li>
+<li class="chapter" data-level="3" data-path="stat.html"><a href="stat.html"><i class="fa fa-check"></i><b>3</b> 回首掏</a></li>
 <li class="appendix"><span><b>附录</b></span></li>
 <li class="chapter" data-level="A" data-path="sound.html"><a href="sound.html"><i class="fa fa-check"></i><b>A</b> 余音绕梁</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>参考文献</a></li>
-<li class="chapter" data-level="B" data-path="wind.html"><a href="wind.html"><i class="fa fa-check"></i><b>B</b> 白苹风末</a>
-<ul>
-<li class="chapter" data-level="B.1" data-path="wind.html"><a href="wind.html#张老爷子"><i class="fa fa-check"></i><b>B.1</b> 张老爷子</a></li>
-<li class="chapter" data-level="B.2" data-path="wind.html"><a href="wind.html#彭大将领"><i class="fa fa-check"></i><b>B.2</b> 彭大将领</a></li>
-</ul></li>
-<li class="chapter" data-level="C" data-path="experimentation.html"><a href="experimentation.html"><i class="fa fa-check"></i><b>C</b> 实验设计</a></li>
-<li class="chapter" data-level="D" data-path="power.html"><a href="power.html"><i class="fa fa-check"></i><b>D</b> 统计功效</a></li>
-<li class="chapter" data-level="E" data-path="anova.html"><a href="anova.html"><i class="fa fa-check"></i><b>E</b> 方差分析</a></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org" target="blank">本书由 bookdown 强力驱动</a></li>
 
@@ -201,37 +198,45 @@ div.csl-indent {
 <div id="header">
 <h1 class="title">用户体验测量</h1>
 <p class="author"><em>李伟哲</em></p>
-<p class="date"><em>2022-04-21</em></p>
+<p class="date"><em>2023-01-10</em></p>
 </div>
 <div id="前言" class="section level1 unnumbered hasAnchor">
 <h1>前言<a href="index.html#前言" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>你好，世界。我写了一本书。这本书是这样的，第 <a href="intro.html#intro">1</a> 章介绍了啥啥，第 <a href="wind.html#wind">B</a> 章说了啥啥，然后是啥啥……</p>
-<p>我用了两个 R 包编译这本书，分别是 <strong>knitr</strong> <span class="citation">(<a href="#ref-xie2015" role="doc-biblioref">Xie 2015</a>)</span> 和 <strong>bookdown</strong> <span class="citation">(<a href="#ref-R-bookdown" role="doc-biblioref">Xie 2022</a>)</span>。以下是我的 R 进程信息：</p>
+<p>我们中的大多数生活在工业化社会中，生活、工作、休闲、娱乐都脱不开各种各样，，第 <a href="intro.html#intro">1</a> 章介绍了啥啥，第 <a href="wind.html#wind">2</a> 章说了啥啥，然后是啥啥……</p>
+<p>我用了两个 R 包编译这本书，分别是 <strong>knitr</strong> <span class="citation">(<a href="#ref-xie2015" role="doc-biblioref">Xie 2015</a>)</span> 和 <strong>bookdown</strong> <span class="citation">(<a href="#ref-R-bookdown" role="doc-biblioref">Xie 2022</a>)</span>。以下是我的 R 进程信息 <strong>最新</strong><span class="citation">(<a href="#ref-Paay2023" role="doc-biblioref">Paay et al. 2023</a>)</span>：</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="index.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sessionInfo</span>()</span></code></pre></div>
-<pre><code>## R version 4.1.0 (2021-05-18)
+<pre><code>## R version 4.2.2 (2022-10-31)
 ## Platform: aarch64-apple-darwin20 (64-bit)
-## Running under: macOS 12.3.1
+## Running under: macOS Ventura 13.1
 ## 
 ## Matrix products: default
-## BLAS:   /Library/Frameworks/R.framework/Versions/4.1-arm64/Resources/lib/libRblas.dylib
-## LAPACK: /Library/Frameworks/R.framework/Versions/4.1-arm64/Resources/lib/libRlapack.dylib
+## BLAS:   /Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/lib/libRblas.0.dylib
+## LAPACK: /Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/lib/libRlapack.dylib
 ## 
 ## locale:
-## [1] zh_CN.UTF-8/zh_CN.UTF-8/zh_CN.UTF-8/C/zh_CN.UTF-8/zh_CN.UTF-8
+## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets 
 ## [6] methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] bookdown_0.26   digest_0.6.29   R6_2.5.1       
-##  [4] jsonlite_1.8.0  magrittr_2.0.3  evaluate_0.15  
-##  [7] stringi_1.7.6   rlang_1.0.2     cli_3.2.0      
-## [10] rstudioapi_0.13 jquerylib_0.1.4 bslib_0.3.1    
-## [13] rmarkdown_2.13  tools_4.1.0     stringr_1.4.0  
-## [16] xfun_0.30       yaml_2.3.5      fastmap_1.1.0  
-## [19] compiler_4.1.0  htmltools_0.5.2 knitr_1.38     
-## [22] sass_0.4.1</code></pre>
+##  [1] bookdown_0.31   digest_0.6.31   R6_2.5.1       
+##  [4] lifecycle_1.0.3 jsonlite_1.8.4  magrittr_2.0.3 
+##  [7] evaluate_0.19   stringi_1.7.8   cachem_1.0.6   
+## [10] rlang_1.0.6     cli_3.4.1       rstudioapi_0.14
+## [13] jquerylib_0.1.4 bslib_0.4.2     vctrs_0.5.1    
+## [16] rmarkdown_2.19  tools_4.2.2     stringr_1.5.0  
+## [19] glue_1.6.2      xfun_0.35       yaml_2.3.6     
+## [22] fastmap_1.1.0   compiler_4.2.2  htmltools_0.5.4
+## [25] knitr_1.41      sass_0.4.4</code></pre>
+<div id="本书结构" class="section level2 unnumbered hasAnchor">
+<h2>本书结构<a href="index.html#本书结构" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>本书旨在向需要专业方法测量用户体验的人群介绍用户研究的基本内容，研究方法，以及产出价值，并附上一些简单案例。
+全书分为三个部分：<strong>理论篇</strong>，<strong>方法篇</strong>，以及<strong>实战篇</strong>
+-主要内容
+-撰写格式</p>
+</div>
 <div id="致谢" class="section level2 unnumbered hasAnchor">
 <h2>致谢<a href="index.html#致谢" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>非常感谢谁谁以及谁谁对我的帮助。艾玛，要不是他们神一样的队友，我两年前就写完这本书了。</p>
@@ -243,8 +248,11 @@ div.csl-indent {
 
 </div>
 </div>
-<h3>References</h3>
+<h3>参考文献<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Paay2023" class="csl-entry">
+Paay, Jeni, Jesper Kjeldskov, Michael Bønnerup, and Thulasika Rasenthiran. 2023. <span>“<span class="nocase">Sketching and context: Exploring creativity in idea generation groups</span>.”</span> <em>Design Studies</em> 84: 101159. https://doi.org/<a href="https://doi.org/10.1016/j.destud.2022.101159">https://doi.org/10.1016/j.destud.2022.101159</a>.
+</div>
 <div id="ref-xie2015" class="csl-entry">
 Xie, Yihui. 2015. <em>Dynamic Documents with <span>R</span> and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="http://yihui.name/knitr/">http://yihui.name/knitr/</a>.
 </div>

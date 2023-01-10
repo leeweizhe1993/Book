@@ -6,7 +6,7 @@ output: pdf_document
 bibliography:
 - book.bib
 - packages.bib
-biblio-style: apa
+biblio-style: apa7
 link-citations: yes
 colorlinks: yes
 lot: yes
@@ -18,8 +18,8 @@ geometry:
 - lmargin=3.5cm
 - rmargin=2.5cm
 site: bookdown::bookdown_site
-description: 关于如何在软件与硬件设计中量化用户体验的实践说明。
-github-repo: yihui/bookdown-chinese
+description: 用户体验测量
+github-repo: "yihui/bookdown-chinese"
 documentclass: ctexbook
 ---
 
@@ -36,13 +36,19 @@ lapply(c(), function(pkg) {
 
 # 前言 {-}
 
-你好，世界。我写了一本书。这本书是这样的，第 \@ref(intro) 章介绍了啥啥，第 \@ref(wind) 章说了啥啥，然后是啥啥……
+我们中的大多数生活在工业化社会中，生活、工作、休闲、娱乐都脱不开各种各样，，第 \@ref(intro) 章介绍了啥啥，第 \@ref(wind) 章说了啥啥，然后是啥啥……
 
-我用了两个 R 包编译这本书，分别是 **knitr**\index{knitr} [@xie2015] 和 **bookdown**\index{bookdown} [@R-bookdown]。以下是我的 R 进程信息：
+我用了两个 R 包编译这本书，分别是 **knitr**\index{knitr} [@xie2015] 和 **bookdown**\index{bookdown} [@R-bookdown]。以下是我的 R 进程信息 **最新**\index{knitr}[@Paay2023]：
 
 ```{r}
 sessionInfo()
 ```
+
+## 本书结构 {-}
+本书旨在向需要专业方法测量用户体验的人群介绍用户研究的基本内容，研究方法，以及产出价值，并附上一些简单案例。
+全书分为三个部分：**理论篇**，**方法篇**，以及**实战篇**
+-主要内容
+-撰写格式
 
 ## 致谢 {-}
 
