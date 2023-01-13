@@ -25,7 +25,7 @@ documentclass: ctexbook
 
 ```{r setup, include=FALSE}
 options(
-  htmltools.dir.version = FALSE, formatR.indent = 2, width = 55, digits = 4
+  htmltools.dir.version = FALSE, formatR.indent = 2, width = 60, digits = 4
 )
 
 # 填上你需要用到的包，如 c('ggplot2', 'dplyr')
@@ -36,7 +36,9 @@ lapply(c(), function(pkg) {
 
 # 前言 {-}
 
-我们中的大多数生活在工业化社会中，生活、工作、休闲、娱乐都脱不开各种各样，，第 \@ref(intro) 章介绍了啥啥，第 \@ref(wind) 章说了啥啥，然后是啥啥……
+现代社会中，各种各样的产品型塑了我们的工作、休闲和娱乐体验。我们不用像祖先一样茹毛饮血，风餐露宿，可以享受许多因为科技发展带来的便利，部分人甚至能够有闲暇发展爱好，不断体悟和拓展生命的意义。当然我们并不是为了某个特定的意义而来到这世上，但体验这多姿多彩的世间，确实让人能够感受到更多的幸福。
+写一本书，是我追求的人生意义之一。我看过并体验过许多产品，也在用户体验领域学习并实践了一些年头，深知要设计出一个好产品，为他人提供一份独特的体验，实在是困难得很。
+第 \@ref(intro) 章介绍了啥啥，第 \@ref(wind) 章说了啥啥，然后是啥啥……
 
 我用了两个 R 包编译这本书，分别是 **knitr**\index{knitr} [@xie2015] 和 **bookdown**\index{bookdown} [@R-bookdown]。以下是我的 R 进程信息 **最新**\index{knitr}[@Paay2023]：
 
